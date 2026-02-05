@@ -6,7 +6,7 @@ import { Label } from '@/app/components/ui/label';
 import { Button } from '@/app/components/ui/button';
 import { Switch } from '@/app/components/ui/switch';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/app/components/ui/select';
-import logoImage from 'figma:asset/c0f67608b5f68cc6fcd7c98b8f75bc360be1cf8d.png';
+import logoImage from '@/assets/c0f67608b5f68cc6fcd7c98b8f75bc360be1cf8d.png';
 
 interface OnboardingScreenProps {
   onComplete: (user: User) => void;
